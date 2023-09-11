@@ -1,0 +1,9 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/ondeEODate
+    username: postgres
+    password: root
+
+  sql:
+    init:
+      mode: always

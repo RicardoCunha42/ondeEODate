@@ -1,0 +1,19 @@
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+  info:
+    env:
+      enabled: true
+
+info:
+  application:
+    name: ondeEODate
+    description: A program to register and avaliate places for dates.
+    author: Ricardo Cunha
+    version: '@project.version@'
+spring:
+  profiles:
+    active: dev
