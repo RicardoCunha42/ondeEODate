@@ -20,7 +20,7 @@ import org.springframework.web.bind.annotation.RestController;
 import com.milliways.ondeEODate.model.Bar;
 import com.milliways.ondeEODate.service.BarService;
 
-@CrossOrigin(originPatterns = {"https://onde-e-o-date-front.vercel.app/", "http://localhost:4200/"})
+@CrossOrigin(origins = {"http://localhost:4200/", "https://onde-e-o-date-front.vercel.app/"})
 @RestController
 @RequestMapping("bares")
 public class BarController {
