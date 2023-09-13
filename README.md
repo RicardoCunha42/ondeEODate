@@ -1,6 +1,1 @@
-spring_profiles_active=prod
-PROD_DB_HOST=containers-us-west-157.railway.app
-PROD_DB_PORT=7747
-PROD_DB_NAME=railway
-PROD_DB_PASSWORD=KijwYYQciOPMfRogEcc1
-PROD_DB_USERNAME=postgres
+Backend Spring application connected to a Postgres db and hosted on Railway. It's designed to receive http requests from its frontend counter part hosted on vercel, check it out: https://onde-e-o-date-front.vercel.app/
